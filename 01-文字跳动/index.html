@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        width: 80px;
+        color: cornflowerblue;
+      }
+
+      h1:hover {
+        animation: animate 0.5s linear infinite;
+      }
+
+      @keyframes animate {
+        0%,
+        25% {
+          text-shadow: 2px 2px 2px #ff6384;
+        }
+
+        50% {
+          text-shadow: 2px -2px 2px #ff6384;
+        }
+
+        75% {
+          text-shadow: -2px 2px 2px #ff6384;
+        }
+
+        100% {
+          text-shadow: -2px -2px 2px #ff6384;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+  </body>
+</html>
